@@ -1,4 +1,4 @@
-"""Explicit C4 certificate checks; the continuous proofs are in cycle_scope.md.
+"""Explicit C4 certificate checks; the continuous proofs are in the manuscript.
 
 No optimizer is used to claim a lower bound. The strict lower bound permits
 general nonsymmetric rank <= 2 paths without a matrix-norm constraint.
@@ -54,7 +54,7 @@ def explicit_psd_path(points=501):
 
 
 def interval_margins():
-    """Numerical display of rational inequalities proved in cycle_scope.md."""
+    """Numerical display of rational inequalities proved in the manuscript."""
     h1_lo = (.49*.997-.503**2)/.759
     h1_hi = (.51*1.003-.497**2)/.741
     h2_lo = (.497*.997-.51*.503)/.759
