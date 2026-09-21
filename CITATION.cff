@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software and identify the exact commit used."
+title: "Tree completion barriers: computational checks"
+type: software
+authors:
+  - family-names: Li
+    given-names: Kecen
+    affiliation: University of Bristol
+version: 1.0.0
+date-released: 2026-09-21
+url: "https://github.com/KecenLi/tree-completion-barriers"
+repository-code: "https://github.com/KecenLi/tree-completion-barriers"
+license: MIT

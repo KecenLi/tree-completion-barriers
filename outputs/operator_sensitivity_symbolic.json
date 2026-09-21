@@ -1,0 +1,5 @@
+{
+  "determinant": "(c + 2*eta*z)*(2*c**2*m - 2*c**2 + 4*c*eta*m*z - 4*c*eta*z - m**2 + z**2 + 1)/c",
+  "exact_observations": true,
+  "zero_middle_row_at_bridge": true
+}
