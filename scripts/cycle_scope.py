@@ -88,7 +88,7 @@ def run():
                **interval_margins())
     out = Path(__file__).resolve().parents[1]/'outputs'/'cycle_scope.csv'
     with out.open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(row))
+        writer = csv.DictWriter(stream, fieldnames=list(row), lineterminator="\n")
         writer.writeheader()
         writer.writerow(row)
     for key, value in row.items():
